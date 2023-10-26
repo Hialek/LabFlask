@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %} {% endblock %}- FlaskApp</title>
+    <title>{% block title %} {% endblock %}- Biblioteca v0.0.0</title>
     <style>
         nav a {
             color: #d64161;
             font-size: 3em;
-            margin-left: 50px;
+            margin-left: 5px;
             text-decoration: none;
+          
         }
 
         .book {
             padding: 20px;
             margin: 10px;
             background-color: #f7f4f4;
+            border-color:#d64161
         }
 
         .review {
@@ -26,8 +28,7 @@
 </head>
 <body>
     <nav>
-        <a href="{{ url_for('index') }}">FlaskApp</a>
-        <a href="#">About</a>
+        <a href="{{ url_for('index') }}">Aplicación DevOps</a>
     </nav>
     <hr>
     <div class="content">
